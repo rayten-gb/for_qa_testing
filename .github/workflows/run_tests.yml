@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Copy source code
         uses: actions/checkout@v4
-      - name: Set up Python env:
+      - name: Set up Python env
         uses: actions/setup-python@v5
         with:
           python-version: "3.14"
